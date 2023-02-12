@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-
+import 'ui/products/products_manager.dart';
+import 'ui/products/product_detail_screen.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -29,12 +30,8 @@ class MyApp extends StatelessWidget {
         // or simply save your changes to "hot reload" in a Flutter IDE).
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('MyShop'),
-        ),
-        body: const Center(
-          child: Text('Welcome to MyShop'),
+      home: SafeArea(
+          child: ProductDetailScreen(ProductsManager().items[0],
         ),
       ),
     );
