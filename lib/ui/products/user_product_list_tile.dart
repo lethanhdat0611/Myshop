@@ -8,7 +8,7 @@ class UserProductListTile extends StatelessWidget {
   const UserProductListTile(
     this.product, {
     super.key,
-  });
+    });
 
   @override
   Widget build(BuildContext context) {

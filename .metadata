@@ -4,7 +4,7 @@
 # This file should be version controlled.
 
 version:
-  revision: 7048ed95a5ad3e43d697e0c397464193991fc230
+  revision: e3c29ec00c9c825c891d75054c63fcc46454dca1
   channel: stable
 
 project_type: app
@@ -13,14 +13,26 @@ project_type: app
 migration:
   platforms:
     - platform: root
-      create_revision: 7048ed95a5ad3e43d697e0c397464193991fc230
-      base_revision: 7048ed95a5ad3e43d697e0c397464193991fc230
+      create_revision: e3c29ec00c9c825c891d75054c63fcc46454dca1
+      base_revision: e3c29ec00c9c825c891d75054c63fcc46454dca1
     - platform: android
-      create_revision: 7048ed95a5ad3e43d697e0c397464193991fc230
-      base_revision: 7048ed95a5ad3e43d697e0c397464193991fc230
+      create_revision: e3c29ec00c9c825c891d75054c63fcc46454dca1
+      base_revision: e3c29ec00c9c825c891d75054c63fcc46454dca1
     - platform: ios
-      create_revision: 7048ed95a5ad3e43d697e0c397464193991fc230
-      base_revision: 7048ed95a5ad3e43d697e0c397464193991fc230
+      create_revision: e3c29ec00c9c825c891d75054c63fcc46454dca1
+      base_revision: e3c29ec00c9c825c891d75054c63fcc46454dca1
+    - platform: linux
+      create_revision: e3c29ec00c9c825c891d75054c63fcc46454dca1
+      base_revision: e3c29ec00c9c825c891d75054c63fcc46454dca1
+    - platform: macos
+      create_revision: e3c29ec00c9c825c891d75054c63fcc46454dca1
+      base_revision: e3c29ec00c9c825c891d75054c63fcc46454dca1
+    - platform: web
+      create_revision: e3c29ec00c9c825c891d75054c63fcc46454dca1
+      base_revision: e3c29ec00c9c825c891d75054c63fcc46454dca1
+    - platform: windows
+      create_revision: e3c29ec00c9c825c891d75054c63fcc46454dca1
+      base_revision: e3c29ec00c9c825c891d75054c63fcc46454dca1
 
   # User provided section
 

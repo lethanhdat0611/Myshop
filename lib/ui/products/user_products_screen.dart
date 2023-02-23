@@ -14,7 +14,7 @@ class UserProductsScreen extends StatelessWidget {
         actions: <Widget>[
           buildAddButton(),
         ],
-      ),
+        ),
       body: RefreshIndicator(
         onRefresh: () async => print('refresh products'),
         child: buildUserProductListView(productsManager),
